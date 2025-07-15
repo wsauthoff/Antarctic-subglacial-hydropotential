@@ -1,11 +1,10 @@
-# Antarctic-subglacial-hydropotential
+# Antarctic subglacial hydropotential
 
-
-## About the Dataset
+## About the dataset
 
 This repository contains code and metadata related to the generation of a 500-m gridded Antarctic subglacial hydropotential dataset, derived from variables in the on BedMachine Antarctica dataset (Morlighem et al., 2020; Morlighem, 2022). The generated hydropotential dataset is distributed via Zenodo in NetCDF4 and Zarr formats.
 
-## Data Access
+## Data access
 
 Filename | Format | Link | Description |
 |--------|--------|------|-------------|
@@ -75,7 +74,7 @@ Pa = N/m² = force / area (pressure)
 
 Calculated hydropotential values are expressed in kilopascals (kPa) for human readable.
 
-## Usage Example (Python)
+## Usage example (Python)
 
 ```python
 import xarray as xr
@@ -99,8 +98,8 @@ Please cite the dataset as:
 
 ## License
 
-- Code is licensed under the GNU GPL-3.0 License (see LICENSE)
-- Data and documentation are licensed under [Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/)
+* Code: Licensed under GPL-3.0 (see LICENSE-CODE)
+* Data: Licensed under CC-BY-SA-4.0 (see LICENSE-DATA)
 
 ## References
 
