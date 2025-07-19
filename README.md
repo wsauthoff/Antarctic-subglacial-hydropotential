@@ -4,12 +4,14 @@
 
 This repository contains code and metadata related to the generation of a 500-m gridded Antarctic subglacial hydropotential dataset, derived from variables in the on BedMachine Antarctica dataset (Morlighem et al., 2020; Morlighem, 2022). The generated hydropotential dataset is distributed via Zenodo in NetCDF4 and Zarr formats.
 
+![Antarctic subglacial hydropotential map](output/Antarctic-subglacial-hydropotential.png)
+
 ## Data access
 
-Filename | Format | Link | Description |
-|--------|--------|------|-------------|
-|Antarctic_hydropotential.nc| NetCDF4 | [Zenodo Link forthcoming] | Chunked and compressed |
-|Antarctic_hydropotential.zarr.zip| zip of Zarr | [Zenodo Link forthcoming] | Cloud-optimized, consolidated metadata |
+Filepath/name | Format | Notes |
+|--------|--------|-------------|
+|/output/Antarctic_hydropotential.nc| NetCDF4 | Chunked and compressed |
+|/output/Antarctic_hydropotential.zarr.zip| zip of Zarr | Cloud-optimized, consolidated metadata |
 
 Both versions include:
 - Variable: `hydropotential` [kPa], gridded at 500 m resolution
