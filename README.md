@@ -19,7 +19,7 @@ Both versions include:
 - Fill value for missing data: `NaN` (Zarr), `-9999.0` (NetCDF)
 
 ## Subglacial hydropotential (θₕ)
-Subglacial hydropotential is a key control on basal water flow beneath ice sheets. 
+Subglacial hydropotential (hydraulic potential) represents the total force per unit area exerted on subglacial water by gravitational potential energy and ice overburden pressure. Hydropotential is a key control on basal water flow direction and magnitude beneath ice sheets.
 
 This dataset provides a stationary field of hydropotential computed as (following Shreve, 1972):
 
