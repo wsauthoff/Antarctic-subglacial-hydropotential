@@ -80,13 +80,20 @@ Calculated hydropotential values are expressed in kilopascals (kPa) for human re
 
 ```python
 import xarray as xr
+import zipfile
 
 # For NetCDF
+# Open dataset with xarray and plot
 ds_nc = xr.open_dataset("subglacial_hydropotential_Antarctica.nc")
 hp = ds_nc["hydropotential"]
 hp.plot()
 
 # For Zarr
+# Extract the zip file
+with zipfile.ZipFile('output/subglacial_hydropotential_Antarctica.zarr.zip', 'r') as zip_ref:
+    zip_ref.extractall('output/subglacial_hydropotential_Antarctica.zarr')
+
+# Open dataset with xarray and plot
 ds_zarr = xr.open_zarr("subglacial_hydropotential_Antarctica.zarr", consolidated=True)
 hp = ds_zarr["hydropotential"]
 hp.plot()
