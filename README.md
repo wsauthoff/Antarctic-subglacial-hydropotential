@@ -8,7 +8,7 @@ This repository contains code and metadata related to the generation of a 500-m 
 
 ## Data access
 
-Filepath/name | Format | Notes |
+Filename | Format | Notes |
 |--------|--------|-------------|
 |subglacial_hydropotential_Antarctica.nc| NetCDF4 | Chunked and compressed |
 |subglacial_hydropotential_Antarctica.zarr.zip| Zarr | Cloud-optimized, consolidated metadata |
