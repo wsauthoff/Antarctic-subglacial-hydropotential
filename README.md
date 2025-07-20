@@ -4,7 +4,7 @@
 
 This repository contains code and metadata related to the generation of a 500-m gridded Antarctic subglacial hydropotential dataset, derived from variables in the on BedMachine Antarctica dataset (Morlighem et al., 2020; Morlighem, 2022). The generated hydropotential dataset is distributed via Zenodo in NetCDF4 and Zarr formats.
 
-![Antarctic subglacial hydropotential map](output/subglacial-hydropotential-Antarctica.png)
+![Antarctic subglacial hydropotential map](output/subglacial_hydropotential_Antarctica.png)
 
 ## Data access
 
@@ -16,7 +16,7 @@ Filename | Format | Notes |
 Both versions include:
 - Variable: `hydropotential` [kPa], gridded at 500 m resolution
 - Coordinates: `x`, `y` in EPSG:3031 (Polar Stereographic South)
-- Fill value for missing data: `NaN` (Zarr), `-9999.0` (NetCDF)
+- Fill value for missing data: `NaN` (e.g., grid cells not considered under grounded ice)
 
 ## Subglacial hydropotential (θₕ)
 Subglacial hydropotential (hydraulic potential) represents the total force per unit area exerted on subglacial water by gravitational potential energy and ice overburden pressure. Hydropotential is a key control on basal water flow direction and magnitude beneath ice sheets.
