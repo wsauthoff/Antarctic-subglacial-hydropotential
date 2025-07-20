@@ -1,17 +1,17 @@
-# Antarctic subglacial hydropotential
+# Subglacial hydropotential
 
 ## About the dataset
 
 This repository contains code and metadata related to the generation of a 500-m gridded Antarctic subglacial hydropotential dataset, derived from variables in the on BedMachine Antarctica dataset (Morlighem et al., 2020; Morlighem, 2022). The generated hydropotential dataset is distributed via Zenodo in NetCDF4 and Zarr formats.
 
-![Antarctic subglacial hydropotential map](output/Antarctic-subglacial-hydropotential.png)
+![Antarctic subglacial hydropotential map](output/subglacial-hydropotential-Antarctica.png)
 
 ## Data access
 
 Filepath/name | Format | Notes |
 |--------|--------|-------------|
-|/output/Antarctic_hydropotential.nc| NetCDF4 | Chunked and compressed |
-|/output/Antarctic_hydropotential.zarr.zip| zip of Zarr | Cloud-optimized, consolidated metadata |
+|subglacial_hydropotential_Antarctica.nc| NetCDF4 | Chunked and compressed |
+|subglacial_hydropotential_Antarctica.zarr.zip| Zarr | Cloud-optimized, consolidated metadata |
 
 Both versions include:
 - Variable: `hydropotential` [kPa], gridded at 500 m resolution
@@ -82,12 +82,12 @@ Calculated hydropotential values are expressed in kilopascals (kPa) for human re
 import xarray as xr
 
 # For NetCDF
-ds_nc = xr.open_dataset("Antarctic_hydropotential.nc")
+ds_nc = xr.open_dataset("subglacial_hydropotential_Antarctica.nc")
 hp = ds_nc["hydropotential"]
 hp.plot()
 
 # For Zarr
-ds_zarr = xr.open_zarr("Antarctic_hydropotential.zarr", consolidated=True)
+ds_zarr = xr.open_zarr("subglacial_hydropotential_Antarctica.zarr", consolidated=True)
 hp = ds_zarr["hydropotential"]
 hp.plot()
 ```
