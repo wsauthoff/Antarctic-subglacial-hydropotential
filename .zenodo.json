@@ -1,6 +1,6 @@
 {
   "title": "Antarctic subglacial hydropotential",
-  "description": "Antarctic subglacial gridded hydropotential calculated using Shreve (1972) equation using BedMachine Antarctica bed and ice topographies and firn air content (Morlighem et al., 2020; Morlighem, 2022). The dataset provides calculated hydropotential computed at 500 m resolution in EPSG:3031 (Polar Stereographic South) projection. The hydropotential is provided in kilopascals (kPa) and is distributed in both chucked NetCDF4 and cloud-optimized Zarr formats.",
+  "description": "Antarctic subglacial gridded hydropotential calculated using Shreve (1972) equation using BedMachine Antarctica bed and ice topographies and firn air content (Morlighem et al., 2020; Morlighem, 2022). The dataset provides calculated hydropotential computed at 500 m resolution in EPSG:3031 (Polar Stereographic South) projection. The hydropotential is provided in kilopascals (kPa) and is distributed in both chunked NetCDF4 and cloud-optimized Zarr formats.",
   "creators": [
     {
       "name": "Sauthoff, Wilson",
@@ -40,4 +40,4 @@
       "resource_type": "publication"
     }
   ]
-   }
+}
