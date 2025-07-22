@@ -107,7 +107,7 @@ hp.plot()
 
 Please cite the dataset as:
 
-    Sauthoff, W., & Siegfried, M. R. (2025). Antarctic subglacial hydropotential [Data set]. Zenodo. [DOI forthcoming]
+    Sauthoff, W., & Siegfried, M. R. (2025). Antarctic subglacial hydropotential [Data set]. Zenodo. https://doi.org/10.5281/zenodo.16243278
 
 ## License
 
